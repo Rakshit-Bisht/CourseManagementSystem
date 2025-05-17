@@ -1,4 +1,4 @@
-# Student-Course-Management-System-REST-api-using-Spring-Boot
+# Course Management System
 
 
 
@@ -52,35 +52,3 @@ This project is a Student Course Management System built using Spring Boot, with
 
 6.DELETE /students/{id} - Delete a student by ID.
 
-
-
-
-
-# Setup Instructions
-
-git clone https://github.com/your-username/student-course-management-system.git
-
-
-
-# Navigate to the project directory
-
-cd student-course-management-system.
-
-
-
-
-
-# Configure the MySQL database in application.properties:
-
-
-spring.datasource.url=jdbc:mysql://localhost:3306/DBtest?useSSL=false&serverTimezone=UTC.
-
-spring.datasource.username=root.
-
-spring.datasource.password=yourpassword.
-
-
-
-# Build and run the project:
-
-mvn spring-boot:run.
